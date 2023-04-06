@@ -2,6 +2,9 @@
   "name": "backend---6-pack-programmer",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
