@@ -16,7 +16,7 @@ app.use(cors({
     origin:[process.env.FROTNEND_URL], // will accept req from this url only
     methods: ["GET", "POST", "PUT", "DELETE"], // allowed methods will be alowed
     credentials: true,  // this will not stop cookies / headres to be sent to front end 
-}))
+}));
 
 //using users routes
 app.use("/api/v1/users", userRouters)
